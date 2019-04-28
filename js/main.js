@@ -1,6 +1,8 @@
 $(document).ready(function() {
     $("a.scrollto").click(function () {
-        var elementClick = '#' +$(elementClick).offset().top;
-        jQuery("html:Notification(:animated),body:Notification(:animated)").animate ({scrollTop: destination}, 800);
+        var elementClick = '#'+$(this).attr("href").split("#")[1]
+        var destination = $(elementClick).offset().top;
+        jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1200);
+        return false;
     });
 });
