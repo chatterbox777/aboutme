@@ -3,10 +3,9 @@
         width: 100%;
     }
     header {
-        flex-wrap: wrap;
     }
     .container {
-        margin: 0px;
+        margin: 0px auto;
     }
     .mail {
     width: 100%;
@@ -33,6 +32,7 @@
     }
     #first .container {
         width: 100%;
+        margin: 0px auto;
     }
 footer .container {
     width: 100%;
@@ -41,6 +41,8 @@ footer .container {
 }
 .credits {
     padding: 0px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 .form {
     width: 200px;
@@ -56,5 +58,81 @@ footer .container {
 h1 span {
     width: 100%;
     margin-top: 113px;
+}
+#first {
+    width: 100%;
+}
+}
+
+@media screen and (max-width:320px) {
+    body {
+        width: 100%;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+    .container {
+        margin: 0px;
+    }
+    .mail {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 20px
+    }
+    .logo {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 20px
+    }
+    .phone {
+    width: 90%;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 20px
+    background: url(../img/phone.png) no-repeat center center;
+    }
+    .about-text {
+        margin: 0px auto;
+        width: 90%;
+        text-align: center;
+    }
+    #about .container {
+        width: 100%;
+    }
+    #first .container {
+        width: 100%;
+    }
+footer .container {
+    width: 100%;
+    flex-wrap: wrap;
+  text-align: center;
+}
+.credits {
+    padding: 0px;
+    margin-left: 70px;
+    margin-bottom: 32px;
+}
+.form {
+    width: 200px;
+}
+.button {
+    width: 200px;
+    height: 21px;
+    text-align: center;
+}
+.form .button {
+    height: 59px;
+}
+h1 span {
+    width: 100%;
+    margin-top: 113px;
+    word-wrap: break-word;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+#first {
+    width: 100%;
+}
+#order {
+    padding: 0px 0px 61px 0px;
 }
 }
