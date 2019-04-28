@@ -7,12 +7,12 @@
         margin: 0px;
     }
     .mail {
-    width: 90%;
+    width: 100%;
     margin-bottom: 30px;
     padding: 0px 0px 0px 20px
     }
     .logo {
-    width: 90%;
+    width: 100%;
     margin-bottom: 30px;
     padding: 0px 0px 0px 20px
     }
@@ -27,13 +27,13 @@
         text-align: left;
     }
     #about .container {
-        width: 90%;
+        width: 100%;
     }
     #first .container {
-        width: 90%;
+        width: 100%;
     }
 footer .container {
-    width: 90%;
+    width: 100%;
     flex-wrap: wrap;
   text-align: center;
 }
