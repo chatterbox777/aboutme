@@ -1,9 +1,11 @@
 @media screen and (max-width:768px) {
+    body {
+        width: 100%;
+    }
     header {
         flex-wrap: wrap;
     }
     .container {
-        width: 100%;
         margin: 0px;
     }
     .mail {
@@ -22,9 +24,9 @@
     padding: 0px 0px 0px 20px
     }
     .about-text {
-        margin: 0px;
+        margin: 0px auto;
         width: 90%;
-        text-align: left;
+        text-align: center;
     }
     #about .container {
         width: 100%;
@@ -39,5 +41,20 @@ footer .container {
 }
 .credits {
     padding: 0px;
+}
+.form {
+    width: 200px;
+}
+.button {
+    width: 200px;
+    height: 21px;
+    text-align: center;
+}
+.form .button {
+    height: 59px;
+}
+h1 span {
+    width: 100%;
+    margin-top: 113px;
 }
 }
