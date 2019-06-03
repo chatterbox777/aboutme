@@ -8,7 +8,11 @@
     .container {
         width: unset;
     }
+    .logo {
+        padding-top: 20px !important;
+    }
 }
+
 
 @media screen and (max-width:768px) {
     body {
@@ -74,6 +78,15 @@ h1 span {
 #first {
     width: 100%;
 }
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width:767px) {
+
+  header {
+   flex-wrap: wrap;
+    text-align: center;   
+  }  
+
 }
 
 @media screen and (max-width:320px) {

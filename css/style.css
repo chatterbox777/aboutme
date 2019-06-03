@@ -28,6 +28,7 @@ color: white;
     cursor: pointer;
 }
 .logo {
+    padding-top: 20px;
 font-size: 16px;
 font-weight: bold;
 text-transform: uppercase;
@@ -166,8 +167,8 @@ footer {
 }
 .credits {
     font-size: 14px;
-padding: 0px 0px 0px 20px;
-color: #acacac;
+    padding: 20px 0px 0px 20px;
+    color: #acacac;
 }
 
 footer .container {
