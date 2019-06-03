@@ -17,23 +17,28 @@ header {
     padding-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.mail {
-font-size: 14px;
-background: url(../img/mail.png) no-repeat left center;
-padding: 0px 0px 0px 20px;
+.mail a {
+text-decoration: none;
+color: white;
+}
+.mail a:hover {
+    color: #fea801;
+    cursor: pointer;
 }
 .logo {
 font-size: 16px;
 font-weight: bold;
 text-transform: uppercase;
 }
-.phone {
-font-size: 16px;
-font-weight: bold;
-background: url(../img/phone.png) no-repeat left center;
-padding: 0px 0px 0px 20px;
+.phone a {
+    text-decoration: none;
+    color: white;
+}
+.phone a:hover {
+    color: #fea801;
+    cursor: pointer;
 }
 .logo span {
     color: #ffb400;
@@ -168,7 +173,7 @@ color: #acacac;
 footer .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px 0px 40px 0px;
 }
 .button:hover {
