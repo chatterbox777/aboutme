@@ -86,6 +86,72 @@ h1 span {
   }  
 
 }
+@media screen and (min-width:2501px){
+    .hidden {
+        top: 98%;
+        width: 46%;
+        left: 42%;
+        height: 11%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:2500px){
+    .hidden {
+        top: 170%;
+        width: 46%;
+        left: 36%;
+        height: 20%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width: 1439px){
+    .hidden {
+        top: 185%;
+        width: 46%;
+        left: 27%;
+        height: 20%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+    .hidden {
+        top: 193%;
+        width: 46%;
+        left: 27%;
+        height: 15%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width: 767px){
+    .hidden {
+        top: 193%;
+        width: 46%;
+        left: 27%;
+        height: 27%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width: 424px){
+    .hidden {
+        top: 193%;
+        width: 46%;
+        left: 27%;
+        height: 27%;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width: 374px){
+    .hidden {
+        top: 231%;
+        width: 46%;
+        left: 27%;
+        height: 27%;
+    }
+}
 
 @media screen and (max-width:320px) {
     body {
@@ -158,6 +224,12 @@ h1 span {
 }
 #order {
     padding: 0px 0px 61px 0px;
+}
+.hidden {
+    top: 198%;
+    width: 46%;
+    left: 27%;
+    height: 25%;
 }
 }
 

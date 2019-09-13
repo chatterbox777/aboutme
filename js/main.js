@@ -7,14 +7,30 @@ $(document).ready(function() {
     });
 });
 
-var hidden = document.querySelector('.hidden');
-var btnCall = document.querySelector('.act');
+let hidden = document.querySelector('.hidden');
+let btnCall = document.querySelector('.act');
 btnCall.addEventListener('click', function(){
 hidden.classList.remove('hide');
 hidden.classList.add('active');
 });
-var btnExit = document.querySelector('.exit');
+let btnExit = document.querySelector('.exit');
 btnExit.addEventListener('click', function(){
 hidden.classList.add('hide');
 hidden.classList.remove('active');
 });
+
+
+const localStorageContent = localStorage.getItem('names');
+
+let names;
+if(localStorageContent === null){
+names = [];
+} else {
+    names = JSON.parse(localStorageContent);
+}
+
+
+names.push('SUKA');
+
+localStorage.setItem('names', JSON.stringify(names));
+
